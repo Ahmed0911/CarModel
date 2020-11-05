@@ -1,0 +1,443 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Ekinox
+
+
+BO_ 540 SBG_ECAN_LOG_SHIP_MOTION_HP_3_2: 6 Vector__XXX
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 539 SBG_ECAN_LOG_SHIP_MOTION_HP_2_2: 6 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 538 SBG_ECAN_LOG_SHIP_MOTION_HP_1_2: 6 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 536 SBG_ECAN_LOG_SHIP_MOTION_HP_3_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 535 SBG_ECAN_LOG_SHIP_MOTION_HP_2_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 534 SBG_ECAN_LOG_SHIP_MOTION_HP_1_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 532 SBG_ECAN_LOG_SHIP_MOTION_HP_3_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 531 SBG_ECAN_LOG_SHIP_MOTION_HP_2_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 530 SBG_ECAN_LOG_SHIP_MOTION_HP_1_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 537 SBG_ECAN_LOG_SHIP_MOTION_HP_0_2: 6 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 533 SBG_ECAN_LOG_SHIP_MOTION_HP_0_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 529 SBG_ECAN_LOG_SHIP_MOTION_HP_0_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 528 SBG_ECAN_LOG_SHIP_MOTION_HP_INFO: 8 Ekinox
+ SG_ STATUS : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PERIOD : 32|16@1+ (0.01,0) [0|0] "s" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 521 SBG_ECAN_LOG_EVENT_TIME_E: 8 Ekinox
+ SG_ TIME_OFFSET_3 : 48|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_2 : 32|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_1 : 16|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_0 : 0|16@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 519 SBG_ECAN_LOG_EVENT_TIME_D: 8 Ekinox
+ SG_ TIME_OFFSET_3 : 48|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_2 : 32|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_1 : 16|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_0 : 0|16@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 517 SBG_ECAN_LOG_EVENT_TIME_C: 8 Ekinox
+ SG_ TIME_OFFSET_3 : 48|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_2 : 32|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_1 : 16|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_0 : 0|16@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 515 SBG_ECAN_LOG_EVENT_TIME_B: 8 Ekinox
+ SG_ TIME_OFFSET_3 : 48|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_2 : 32|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_1 : 16|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_0 : 0|16@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 513 SBG_ECAN_LOG_EVENT_TIME_A: 8 Ekinox
+ SG_ TIME_OFFSET_3 : 48|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_2 : 32|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_1 : 16|16@1+ (1,0) [0|0] "µs" Vector__XXX
+ SG_ TIME_OFFSET_0 : 0|16@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 520 SBG_ECAN_LOG_EVENT_INFO_E: 8 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 518 SBG_ECAN_LOG_EVENT_INFO_D: 8 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 516 SBG_ECAN_LOG_EVENT_INFO_C: 8 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 514 SBG_ECAN_LOG_EVENT_INFO_B: 8 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 512 SBG_ECAN_LOG_EVENT_INFO_A: 8 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 867 SBG_ECAN_LOG_PRESSURE_ALTITUDE: 8 Ekinox
+ SG_ ALTITUDE : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ PRESSURE : 0|32@1- (1,0) [0|0] "Pa" Vector__XXX
+
+BO_ 866 SBG_ECAN_LOG_PRESSURE_INFO: 8 Ekinox
+ SG_ STATUS : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 844 SBG_ECAN_LOG_SHIP_MOTION_3_2: 8 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 843 SBG_ECAN_LOG_SHIP_MOTION_2_2: 8 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 842 SBG_ECAN_LOG_SHIP_MOTION_1_2: 8 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 841 SBG_ECAN_LOG_SHIP_MOTION_0_2: 8 Ekinox
+ SG_ VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 905 SBG_ECAN_LOG_GPS2_HDT: 8 Ekinox
+ SG_ PITCH_ACC : 48|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ PITCH : 32|16@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ TRUE_HEADING_ACC : 16|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ TRUE_HEADING : 0|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+
+BO_ 889 SBG_ECAN_LOG_GPS1_HDT: 8 Ekinox
+ SG_ PITCH_ACC : 48|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ PITCH : 32|16@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ TRUE_HEADING_ACC : 16|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ TRUE_HEADING : 0|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+
+BO_ 904 SBG_ECAN_LOG_GPS2_HDT_INFO: 6 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 888 SBG_ECAN_LOG_GPS1_HDT_INFO: 6 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 903 SBG_ECAN_LOG_GPS2_POS_ACC: 6 Ekinox
+ SG_ ALTITUDE_ACC : 32|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LONGITUDE_ACC : 16|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LATITUDE_ACC : 0|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+
+BO_ 887 SBG_ECAN_LOG_GPS1_POS_ACC: 6 Ekinox
+ SG_ ALTITUDE_ACC : 32|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LONGITUDE_ACC : 16|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LATITUDE_ACC : 0|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+
+BO_ 902 SBG_ECAN_LOG_GPS2_ALT: 6 Ekinox
+ SG_ UNDULATION : 32|16@1- (0.005,0) [0|0] "m" Vector__XXX
+ SG_ ALTITUDE : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 886 SBG_ECAN_LOG_GPS1_ALT: 6 Ekinox
+ SG_ UNDULATION : 32|16@1- (0.005,0) [0|0] "m" Vector__XXX
+ SG_ ALTITUDE : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 901 SBG_ECAN_LOG_GPS2_POS: 8 Ekinox
+ SG_ LONGITUDE : 32|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+ SG_ LATITUDE : 0|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+
+BO_ 885 SBG_ECAN_LOG_GPS1_POS: 8 Ekinox
+ SG_ LONGITUDE : 32|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+ SG_ LATITUDE : 0|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+
+BO_ 900 SBG_ECAN_LOG_GPS2_POS_INFO: 8 Ekinox
+ SG_ STATUS : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 884 SBG_ECAN_LOG_GPS1_POS_INFO: 8 Ekinox
+ SG_ STATUS : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 899 SBG_ECAN_LOG_GPS2_COURSE: 4 Ekinox
+ SG_ COURSE_ACC : 16|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ COURSE : 0|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+
+BO_ 883 SBG_ECAN_LOG_GPS1_COURSE: 4 Ekinox
+ SG_ COURSE_ACC : 16|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+ SG_ COURSE : 0|16@1+ (0.01,0) [0|0] "°" Vector__XXX
+
+BO_ 898 SBG_ECAN_LOG_GPS2_VEL_ACC: 6 Ekinox
+ SG_ VELOCITY_ACC_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 882 SBG_ECAN_LOG_GPS1_VEL_ACC: 6 Ekinox
+ SG_ VELOCITY_ACC_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 897 SBG_ECAN_LOG_GPS2_VEL: 6 Ekinox
+ SG_ VELOCITY_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 881 SBG_ECAN_LOG_GPS1_VEL: 6 Ekinox
+ SG_ VELOCITY_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 896 SBG_ECAN_LOG_GPS2_VEL_INFO: 8 Ekinox
+ SG_ STATUS : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 880 SBG_ECAN_LOG_GPS1_VEL_INFO: 8 Ekinox
+ SG_ STATUS : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 865 SBG_ECAN_LOG_ODOMETER_VELOCITY: 4 Ekinox
+ SG_ VELOCITY : 0|32@1- (1,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 864 SBG_ECAN_LOG_ODOMETER_INFO: 6 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 850 SBG_ECAN_LOG_MAG_2: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 849 SBG_ECAN_LOG_MAG_1: 6 Ekinox
+ SG_ MAG_Z : 32|16@1- (0.001,0) [0|0] "a.u." Vector__XXX
+ SG_ MAG_Y : 16|16@1- (0.001,0) [0|0] "a.u." Vector__XXX
+ SG_ MAG_X : 0|16@1- (0.001,0) [0|0] "a.u." Vector__XXX
+
+BO_ 848 SBG_ECAN_LOG_MAG_0: 6 Ekinox
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 840 SBG_ECAN_LOG_SHIP_MOTION_3_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 839 SBG_ECAN_LOG_SHIP_MOTION_2_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 838 SBG_ECAN_LOG_SHIP_MOTION_1_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 837 SBG_ECAN_LOG_SHIP_MOTION_0_1: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 836 SBG_ECAN_LOG_SHIP_MOTION_3_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 835 SBG_ECAN_LOG_SHIP_MOTION_2_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 834 SBG_ECAN_LOG_SHIP_MOTION_1_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 833 SBG_ECAN_LOG_SHIP_MOTION_0_0: 6 Ekinox
+ SG_ HEAVE : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SWAY : 16|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ SURGE : 0|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 832 SBG_ECAN_LOG_SHIP_MOTION_INFO: 8 Ekinox
+ SG_ STATUS : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PERIOD : 32|16@1+ (0.01,0) [0|0] "s" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 824 SBG_ECAN_LOG_EKF_VEL_ACC: 6 Ekinox
+ SG_ VELOCITY_ACC_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_ACC_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 823 SBG_ECAN_LOG_EKF_VEL: 6 Ekinox
+ SG_ VELOCITY_D : 32|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_E : 16|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+ SG_ VELOCITY_N : 0|16@1- (0.01,0) [0|0] "m.s-1" Vector__XXX
+
+BO_ 822 SBG_ECAN_LOG_EKF_POS_ACC: 6 Ekinox
+ SG_ ALTITUDE_ACC : 32|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LONGITUDE_ACC : 16|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+ SG_ LATITUDE_ACC : 0|16@1+ (0.01,0) [0|0] "m" Vector__XXX
+
+BO_ 821 SBG_ECAN_LOG_EKF_ALTITUDE: 6 Ekinox
+ SG_ UNDULATION : 32|16@1- (0.005,0) [0|0] "m" Vector__XXX
+ SG_ ALTITUDE : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 820 SBG_ECAN_LOG_EKF_POS: 8 Ekinox
+ SG_ LONGITUDE : 32|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+ SG_ LATITUDE : 0|32@1- (1E-007,0) [0|0] "°" Vector__XXX
+
+BO_ 819 SBG_ECAN_LOG_EKF_ORIENTATION_ACC: 6 Ekinox
+ SG_ YAW_ACC : 32|16@1+ (0.0001,0) [0|0] "rad" Vector__XXX
+ SG_ PITCH_ACC : 16|16@1+ (0.0001,0) [0|0] "rad" Vector__XXX
+ SG_ ROLL_ACC : 0|16@1+ (0.0001,0) [0|0] "rad" Vector__XXX
+
+BO_ 818 SBG_ECAN_LOG_EKF_EULER: 6 Ekinox
+ SG_ YAW : 32|16@1- (0.0001,0) [0|0] "rad" Vector__XXX
+ SG_ ROLL : 0|16@1- (0.0001,0) [0|0] "rad" Vector__XXX
+ SG_ PITCH : 16|16@1- (0.0001,0) [0|0] "rad" Vector__XXX
+
+BO_ 817 SBG_ECAN_LOG_EKF_QUAT: 8 Ekinox
+ SG_ Q3 : 48|16@1- (3.0517578125E-005,0) [0|0] "" Vector__XXX
+ SG_ Q2 : 32|16@1- (3.0517578125E-005,0) [0|0] "" Vector__XXX
+ SG_ Q1 : 16|16@1- (3.0517578125E-005,0) [0|0] "" Vector__XXX
+ SG_ Q0 : 0|16@1- (3.0517578125E-005,0) [0|0] "" Vector__XXX
+
+BO_ 816 SBG_ECAN_LOG_EKF_STATUS: 4 Ekinox
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 804 SBG_ECAN_LOG_DELTA_ANGLES: 6 Ekinox
+ SG_ DELTA_ANGLE_Z : 32|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+ SG_ DELTA_ANGLE_Y : 16|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+ SG_ DELTA_ANGLE_X : 0|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+
+BO_ 803 SBG_ECAN_LOG_IMU_DELTA_VEL: 6 Ekinox
+ SG_ DELTA_VEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ DELTA_VEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ DELTA_VEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 802 SBG_ECAN_LOG_IMU_GYRO: 6 Ekinox
+ SG_ GYRO_Z : 32|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+ SG_ GYRO_Y : 16|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+ SG_ GYRO_X : 0|16@1- (0.001,0) [0|0] "rad.s-1" Vector__XXX
+
+BO_ 801 SBG_ECAN_LOG_IMU_ACCEL: 6 Ekinox
+ SG_ ACCEL_Z : 32|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_Y : 16|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+ SG_ ACCEL_X : 0|16@1- (0.01,0) [0|0] "m.s-2" Vector__XXX
+
+BO_ 800 SBG_ECAN_LOG_IMU_INFO: 8 Ekinox
+ SG_ TEMPERATURE : 48|16@1- (0.01,0) [0|0] "°C" Vector__XXX
+ SG_ STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 785 SBG_ECAN_LOG_UTC_1: 8 Ekinox
+ SG_ TENTH_MS : 48|16@1+ (100,0) [0|0] "us" Vector__XXX
+ SG_ SEC : 40|8@1+ (1,0) [0|0] "s" Vector__XXX
+ SG_ MIN : 32|8@1+ (1,0) [0|0] "min" Vector__XXX
+ SG_ HOUR : 24|8@1+ (1,0) [0|0] "h" Vector__XXX
+ SG_ DAY : 16|8@1+ (1,0) [0|0] "d" Vector__XXX
+ SG_ MONTH : 8|8@1+ (1,0) [0|0] "month" Vector__XXX
+ SG_ YEAR : 0|8@1+ (1,2000) [0|0] "year" Vector__XXX
+
+BO_ 784 SBG_ECAN_LOG_UTC_0: 8 Ekinox
+ SG_ GPS_TOW : 32|32@1+ (1,0) [0|0] "ms" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+BO_ 770 SBG_ECAN_LOG_STATUS_03: 6 Ekinox
+ SG_ HEAVE_STATUS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SOLUTION : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 769 SBG_ECAN_LOG_STATUS_02: 8 Ekinox
+ SG_ AIDING : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ COM : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 768 SBG_ECAN_LOG_STATUS_01: 8 Ekinox
+ SG_ CLOCK : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ GENERAL : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TIME_STAMP : 0|32@1+ (1,0) [0|0] "µs" Vector__XXX
+
+
+
+EV_ FormatedDate: 1 [0|0] "" 0 1 DUMMY_NODE_VECTOR1  Ekinox;
+
+EV_ FormatedHour: 1 [0|0] "" 0 2 DUMMY_NODE_VECTOR1  Ekinox;
+
+EV_ RoverSpeed: 1 [0|0] "m.s-1" 0 3 DUMMY_NODE_VECTOR1  Ekinox;
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+SIG_VALTYPE_ 865 VELOCITY : 1;
+
